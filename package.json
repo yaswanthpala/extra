@@ -1,0 +1,26 @@
+{
+  "name": "ridesystem",
+  "version": "1.0.0",
+  "description": "rideSystem",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "moment-timezone": "^0.5.45",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.3",
+    "sequelize": "^6.37.3",
+    "sequelize-mock": "^0.10.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0"
+  }
+}
