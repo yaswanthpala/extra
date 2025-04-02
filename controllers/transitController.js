@@ -9,10 +9,10 @@ const moment = require('moment-timezone')
 class TransitController{
 
 //   tester = async(req,res)=>{
-//     //API KEY AIzaSyDCcYnU9azAZXw537FvA18zmwQUNFLYjVA
+//     //API KEY 
 
   getGeocode = async (address, storeConfig) => {
-    const GEO_API_KEY = `AIzaSyDCcYnU9azAZXw537FvA18zmwQUNFLYjVA`
+    const GEO_API_KEY = `{PLACE_GEO_API_KEY}`
   try {
 
 
